@@ -1,0 +1,41 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+}
+
+.formulario > div {
+  display: flex;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.link > h2 {
+  flex-grow: 1;
+}
+
+.inputRandom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-size: 20px;
+}
+
+.inputRandom input {
+    margin-left: 10px;
+    border: 1px solid #303;
+    height: 20px;
+    width: 20px;
+}
